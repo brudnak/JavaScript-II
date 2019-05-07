@@ -82,8 +82,16 @@ console.log(`Donation Total: $${ticketPriceTotal}`)
 // ==== Challenge 5: Be Creative ====
 // Now that you have used .forEach(), .map(), .filter(), and .reduce().  I want you to think of potential problems you could solve given the data set and the 5k fun run theme.  Try to create and then solve 3 unique problems using one or many of the array methods listed above.
 
-// Problem 1
+// Problem 1 - find all runners with .edu email
+const isEdu = e => e.email.includes('.edu')
+let eduEmail = runners.filter(isEdu)
+console.table(eduEmail)
 
-// Problem 2
+// Problem 2 - find all donations over 200
+const over200 = e => e.donation > 200
+let highDonations = runners.filter(over200)
+console.table(highDonations)
 
-// Problem 3
+// Problem 3 - find all donations over 200 from runnner with .edu email
+let over200edo = runners.filter(isEdu).filter(over200)
+console.table(over200edo)
