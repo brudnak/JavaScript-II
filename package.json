@@ -1,0 +1,23 @@
+{
+  "name": "javascript-ii",
+  "version": "1.0.0",
+  "description": "With some basic JavaScript principles in hand, we can now expand our skills out even further by exploring callback functions, array methods, and closure.  Finish each task in order as the concepts build on one another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brudnak/JavaScript-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brudnak/JavaScript-II/issues"
+  },
+  "homepage": "https://github.com/brudnak/JavaScript-II#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
